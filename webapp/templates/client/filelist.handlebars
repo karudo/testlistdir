@@ -1,0 +1,7 @@
+{{#each files}}
+<tr>
+	<td><i class="icon-{{#if this.isDir}}folder-close{{else}}file{{/if}}"></i></td>
+	<td><a {{#if this.isDir}}class="dir" data-path="{{this.fullname}}"{{/if}} href="{{#if this.isDir}}#{{else}}/download{{this.fullname}}{{/if}}">{{this.file}}</a></td>
+	<td>{{this.size}}</td>
+</tr>
+{{/each}}

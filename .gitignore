@@ -1,0 +1,4 @@
+/.idea
+/node_modules
+/webapp\public/templates.js
+/webapp\public/templates.min.js

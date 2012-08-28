@@ -1,0 +1,32 @@
+{
+	"name": "testlistdir",
+	"version": "0.0.1",
+	"description": "Test List Dir",
+	"homepage": "http://nosite",
+	"keywords": [],
+	"author": {
+		"name": "Deonis Peretyagin",
+		"email": "karudo@gmail.com"
+	},
+	"contributors": [],
+	"dependencies": {
+		"async": "*",
+		"underscore": "*",
+		"socket.io": "*",
+		"coffee-script": "*",
+		"express": "*",
+		"handlebars": "*",
+		"hbs": "*",
+		"connect": "*"
+	},
+	"devDependencies": {
+		"muffin": "*"
+	},
+	"main": "index",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"start": "NODE_ENV=production node index"
+	}
+}
